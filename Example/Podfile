@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MARSDK_THINKINGDATA_Tests' do
+  pod 'MARSDK_THINKINGDATA', :path => '../'
+  
+  
+end
