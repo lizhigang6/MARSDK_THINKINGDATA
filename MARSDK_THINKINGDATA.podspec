@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.vendored_libraries =  'MARSDK_THINKINGDATA/SDK/*'
 s.vendored_frameworks  = 'MARSDK_THINKINGDATA/Classes/ThinkingSDK.framework' 
 
-  s.frameworks = "SystemConfiguration","CoreTelephony","libsqlite3","libz" 
+  s.frameworks = "Security","SystemConfiguration","libsqlite3","libz" 
   s.ios.deployment_target = '10.0'
 
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }  
