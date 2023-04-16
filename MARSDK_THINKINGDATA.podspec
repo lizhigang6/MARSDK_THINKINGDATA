@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MARSDK_THINKINGDATA'
-  s.version          = '1.1'
+  s.version          = '3.0'
   s.summary          = '火星人打包工具'
 
 
